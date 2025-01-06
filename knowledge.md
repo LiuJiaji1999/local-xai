@@ -1,4 +1,4 @@
-## XAI local-xsai
+## XAI local-xai
 
 ### 现有工具🔧
 ```bash
