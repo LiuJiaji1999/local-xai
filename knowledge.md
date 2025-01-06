@@ -1,21 +1,27 @@
-# local-xai
+## XAI local-xsai
 
-#### 模型参考
-```
+### 现有工具🔧
+```bash
 [现有工作](https://github.com/stars/LiuJiaji1999/lists/xai)
 * scratch_mlp
 * lime
 * shap
 * influence-release
-* cnn-explainer : 神经网络的网页版可视化
 * CV_ImageClassification
 
-* /tensorflow/lucid，这是https://distill.pub/2017/feature-visualization 谷歌的特征可视化代码
-# git clone https://github.com/tensorflow/lucid.git 一直不成功
-
+1./tensorflow/lucid：谷歌的特征可视化代码，这是https://distill.pub/2017/feature-visualization
+    git clone https://github.com/tensorflow/lucid.git
+2.cnn-explainer：Tiny-VGG网络的特征图表示，Demo: https://poloclub.github.io/cnn-explainer/
+    git clone https://github.com/poloclub/cnn-explainer.git
+3.LLM Visualization：大语言模型的transformer结构表示，
+    https://bbycroft.net/llm
 ```
 
-#### 模型解释
+```bash
+conda activate Explan
+```
+
+### 模型解释
 ```text
 1. 模型自解释
     ·结构简单的内置可解释性：
@@ -40,4 +46,17 @@
         a.局部代理LIME：利用该实例及近邻样本训练的线性回归模型拟合该模型的边界；
         b.博弈论SHAP：反映每个特征对预测的贡献度，与人类认知最为相近; 
 
+```
+
+
+####  因果关系
+```bash 
+1. https://mp.weixin.qq.com/s/l-I5DtxUU1yU1Ke_P--GWA
+```
+
+####  可解释性理论
+```bash 
+1. https://mp.weixin.qq.com/s/t2LZvKhhCs9epPyLZwN-dw
+2. 等变神经网络的可解释 
+    《Equivariant neural networks and piecewise linear representation theory》
 ```
