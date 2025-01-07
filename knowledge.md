@@ -11,8 +11,10 @@
 
 1./tensorflow/lucid：谷歌的特征可视化代码，这是https://distill.pub/2017/feature-visualization
     git clone https://github.com/tensorflow/lucid.git
+    《Feature Visualization》
 2.cnn-explainer：Tiny-VGG网络的特征图表示，Demo: https://poloclub.github.io/cnn-explainer/
     git clone https://github.com/poloclub/cnn-explainer.git
+    《CNN Explainer - learning convolutional neural networks with interactive visualization》
 3.LLM Visualization：大语言模型的transformer结构表示，
     https://bbycroft.net/llm
 ```
